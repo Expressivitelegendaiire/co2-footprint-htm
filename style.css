@@ -1,0 +1,23 @@
+th {
+    cursor: pointer;
+}
+
+th:hover {
+    text-decoration: underline;
+}
+
+[dir="ltr"] .sidebar {
+    order: 1;
+}
+
+[dir="ltr"] section {
+    order: 2;
+}
+
+[dir="rtl"] .sidebar {
+    order: 1;
+}
+
+[dir="rtl"] .sidebar {
+    order: 2;
+}
