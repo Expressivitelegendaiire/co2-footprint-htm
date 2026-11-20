@@ -6,6 +6,7 @@ th:hover {
     text-decoration: underline;
 }
 
+/* LTR = z.B. Deutsch, Englisch -> Menü links */
 [dir="ltr"] .sidebar {
     order: 1;
 }
@@ -14,10 +15,11 @@ th:hover {
     order: 2;
 }
 
-[dir="rtl"] .sidebar {
-    order: 1;
-}
-
+/* RTL = z.B. Arabisch, Hebräisch -> Menü rechts */
 [dir="rtl"] .sidebar {
     order: 2;
+}
+
+[dir="rtl"] .section {
+    order: 1;
 }
